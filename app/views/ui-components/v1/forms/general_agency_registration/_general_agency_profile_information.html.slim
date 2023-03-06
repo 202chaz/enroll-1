@@ -13,9 +13,9 @@
 
   .col-md-6
     .col-12.mb-2.mt-2
-      = f.check_box :working_hours
+      = f.check_box :working_hours, id: "customCheck1"
       label class="custom-control-label ml-2" for="customCheck1" EVENING/WEEKEND HOURS?
 
     .col-12.mb-2.mt-2
-      = f.check_box :accept_new_clients
+      = f.check_box :accept_new_clients, id: "customCheck2"
       label class="custom-control-label ml-2" for="customCheck2" ACCEPT NEW CLIENTS?
