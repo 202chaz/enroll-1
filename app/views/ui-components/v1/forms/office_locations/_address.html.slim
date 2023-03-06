@@ -17,12 +17,12 @@
   .row
     .col-md-12.col-sm-12.col.xs-12
       label for="inputAddress2" Address 2
-      = f.text_field :address_2, class:"form-control mb-1",  placeholder: "Address 2"
+      = f.text_field :address_2, class:"form-control mb-1",  placeholder: "Address 2", id: "inputAddress2"
 
   .row[data-controller='zip-check']
     .col-md-3.col-sm-12.col-xs-12
       label for="inputCity" = l10n("employers.registration.city")
-      = f.text_field :city, class: "form-control mb-1", required: true, placeholder: 'CITY'
+      = f.text_field :city, class: "form-control mb-1", required: true, placeholder: 'CITY', id: "inputCity"
       .invalid-feedback
         | Please provide a valid city.
     .col-md-3.col-sm-12.col-xs-12
