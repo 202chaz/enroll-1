@@ -14,7 +14,7 @@
         = f.hidden_field :referer, value: request.env["HTTP_REFERER"]
         .form-group
           = f.label :email_or_username
-          = f.text_field :oim_id, class: "form-control", required: true, data: {action: "focus->signup#emailTooltip click->signup#emailTooltip focusout->signup#validateEmail", toggle: "tooltip", placement: "right", trigger: 'click', title: "You can use your email address as your login. Using your email address will make it easier to recover your password if you ever forget it.", target: 'signup.usernameField' }
+          = f.text_field :oim_id, class: "form-control", id: "user_email_or_username", required: true, data: {action: "focus->signup#emailTooltip click->signup#emailTooltip focusout->signup#validateEmail", toggle: "tooltip", placement: "right", trigger: 'click', title: "You can use your email address as your login. Using your email address will make it easier to recover your password if you ever forget it.", target: 'signup.usernameField' }
           .invalid-feedback
             | You can use your email address as your login. Using your email address will make it easier to recover your password if you ever forget it.
         .form-group
