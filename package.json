@@ -7,7 +7,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.8.1",
     "@fortawesome/free-solid-svg-icons": "^5.8.1",
     "@rails/actioncable": "^6.0.3-4",
-    "@rails/webpacker": "^4.0.4",
+    "@rails/webpacker": "^5.4.4",
     "@types/node": "^12.0.2",
     "@webcomponents/webcomponentsjs": "^2.2.10",
     "axios": "^0.18.0",
@@ -16,6 +16,7 @@
     "html-loader": "^0.5.5",
     "jquery": "^3.4.0",
     "jquery-ui": "^1.12.1",
+    "node-sass": "npm:sass@^1.58.3",
     "object-assign": "^4.1.0",
     "popper.js": "^1.15.0",
     "postcss-cssnext": "^3.1.0",
@@ -79,5 +80,8 @@
     "titleTemplate": "{classname}-{title}",
     "ancestorSeparator": " › ",
     "usePathForSuiteName": "true"
+  },
+  "resolutions": {
+    "node-sass": "^8.0.1"
   }
 }

@@ -560,7 +560,7 @@ GEM
     fast_jsonapi (1.5)
       activesupport (>= 4.2)
     ffaker (2.18.0)
-    ffi (1.9.25)
+    ffi (1.15.5)
     font-awesome-rails (4.7.0.7)
       railties (>= 3.2, < 7)
     forgery (0.7.0)
@@ -659,7 +659,7 @@ GEM
     mimemagic (0.3.8)
       nokogiri (~> 1)
     mini_mime (1.0.2)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.8.1)
     minitest (5.14.2)
     monetize (1.9.4)
       money (~> 6.12)
@@ -714,8 +714,9 @@ GEM
     net-ssh (4.2.0)
     newrelic_rpm (5.7.0.350)
     nio4r (2.5.8)
-    nokogiri (1.10.10)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.14.2)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     nokogiri-happymapper (0.8.1)
       nokogiri (~> 1.5)
     non-stupid-digest-assets (1.0.9)
@@ -745,6 +746,7 @@ GEM
       multi_json
       redis
     raabro (1.4.0)
+    racc (1.6.2)
     rack (2.2.3)
     rack-cors (1.1.1)
       rack (>= 2.0.0)
@@ -1128,7 +1130,7 @@ DEPENDENCIES
   mongoid_userstamp (~> 0.4)!
   net-ssh (= 4.2.0)
   newrelic_rpm (~> 5.0)
-  nokogiri (~> 1.10.8)
+  nokogiri (~> 1.12)
   nokogiri-happymapper (~> 0.8.0)
   non-stupid-digest-assets
   notifier!
@@ -1195,7 +1197,7 @@ DEPENDENCIES
   yard-mongoid (~> 0.1)
 
 RUBY VERSION
-   ruby 2.5.9p229
+   ruby 2.7.7
 
 BUNDLED WITH
    2.3.23

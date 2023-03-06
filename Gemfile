@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.9'
+ruby '2.7.7'
 gem 'rails', '~> 5.2.4.3'
 gem 'sidekiq'
 gem 'ffaker'
@@ -94,7 +94,7 @@ gem 'mail',                     '~> 2.7'
 gem 'maskedinput-rails',        '~> 1.4'
 gem 'money-rails',              '~> 1.13'
 gem 'net-ssh',                  '= 4.2.0'
-gem 'nokogiri',                 '~> 1.10.8'
+gem 'nokogiri',                 '~> 1.12'
 gem 'nokogiri-happymapper',     '~> 0.8.0', :require => 'happymapper'
 gem 'non-stupid-digest-assets'
 gem 'pundit',                   '~> 2.0'
